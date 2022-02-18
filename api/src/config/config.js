@@ -1,4 +1,4 @@
 module.exports = {
     jwtSecret: 'ionic',
-    db: "mongodb+srv://dahri:dahri2021@cluster0.unjrx.mongodb.net/mydb?retryWrites=true&w=majority",
+    db: "mongodb+srv://ah-user:ah-user@cluster0.y8kt0.mongodb.net/auth-micro?retryWrites=true&w=majority",
 };

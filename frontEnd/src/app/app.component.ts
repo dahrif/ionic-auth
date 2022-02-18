@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
- 
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
@@ -30,7 +29,7 @@ export class AppComponent {
         if (state) {
           this.router.navigate(['inside']);
         } else {
-          this.router.navigate(['login']);
+          this.router.navigate(['register']);
         }
       });
  
