@@ -27,15 +27,6 @@ export class InsidePage implements OnInit {
     this.authService.logout();
   }
  
-  clearToken() {
-    // ONLY FOR TESTING!
-    this.storage.remove('access_token');
- 
-    let toast = this.toastController.create({
-      message: 'JWT removed',
-      duration: 3000
-    });
-    toast.then(toast => toast.present());
-  }
+
  
 }
