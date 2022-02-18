@@ -28,8 +28,6 @@ export class AppComponent {
       this.authService.authenticationState.subscribe(state => {
         if (state) {
           this.router.navigate(['inside']);
-        } else {
-          this.router.navigate(['register']);
         }
       });
  
